@@ -1,0 +1,79 @@
+vagrant halt
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd
+ll
+repogit/
+cd repogit/
+ll
+cd
+ll
+cd repogit/
+git clone git@github.com:lourdes-privitera/TP_AySO.git
+ll
+cd TP_AySO/
+ll
+echo > hola.txt
+ll
+git status
+git add hola.txt 
+git commit "info"
+git commit -m "info"
+git config --global user.email "lulitaprivi@gmail.com"
+git status
+git push
+git commit -m "info"
+git push
+cat /etc/os-release 
+grep home_url /etc/os-release
+grep HOME_URL /etc/os-release
+grep www Home_url /etc/os-release
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+ll
+cat datos_usuario.txt 
+git add .
+git commit -m "ADD: agregado 1er
+ejercicio sobre datos_usuarios.txt"
+git push
+cat /proc/cpuinfo
+grep cpu  /proc/cpuinfo
+grep cpu cores /proc/cpuinfo
+grep cpu cores /proc/cpuinfo | grep cores 
+grep cpu cores /proc/cpuinfo | grep cores | head -n1
+grep cpu cores /proc/cpuinfo
+grep "cpu cores" /proc/cpuinfo
+grep "cpu cores" /proc/cpuinfo | head -n1
+grep "cpu cores" /proc/cpuinfo | head -n1 | echo >> datos_usuario.txt 
+cat datos_usuario.txt 
+grep "cpu cores" /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+cat datos_usuario.txt 
+grep "model name" /proc/cpuinfo | head -n1 >>
+datos_usuarios.txt
+cat datos_usuario.txt 
+grep "model name" /proc/cpuinfo
+grep "model name" /proc/cpuinfo | head -n1
+grep "model name" /proc/cpuinfo | head -n1 >>
+datos_usuario.txt
+grep "model name" /proc/cpuinfo | head -n1 >>
+datos_usuarios.txt
+cat datos_usuario.txt 
+grep "model name" /proc/cpuinfo | head -n1 >>
+datos_usuario.txt
+grep "model name" /proc/cpuinfo | head -n1 >>datos_usuario.txt
+cat datos_usuario.txt 
+ls -la
+echo "alumno: Lourdes Privitera" > README.md 
+cat README.md 
+echo "Divisiòn: 315" >> README.md 
+cat README.md 
+echo "Turno: Noche" >> README.md 
+git add README.md datos_usuarios.txt
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+history -a
+grep $HOME/.bash_history
+~[C[C[C[C[C[D[Ddcdcdcdccd[200~ls -a | grep .bash_history
+ls -a | grep .bash_history
+cat .bash_history
