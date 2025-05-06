@@ -1,2 +1,3 @@
-# TP_AySO
-Es el TP 1 DE LA DIV 315 2025
+alumno: Lourdes Privitera
+Divisiòn: 315
+Turno: Noche

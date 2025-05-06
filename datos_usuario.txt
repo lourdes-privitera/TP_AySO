@@ -1,1 +1,4 @@
 “Usuario=vagrant”
+
+cpu cores	: 2
+model name	: Intel(R) Core(TM) i3-8130U CPU @ 2.20GHz
